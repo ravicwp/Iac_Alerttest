@@ -25,7 +25,7 @@ resource "aws_s3_bucket" "mfadelete3" {
   }
 }
 
-resource "aws_s3_bucket" "mfadelete3" {
+resource "aws_s3_bucket" "mfadelete4" {
   bucket = "ravibuckettftest3"
   acl    = "private"
   versioning {
@@ -34,8 +34,8 @@ resource "aws_s3_bucket" "mfadelete3" {
   }
 }
 
-resource "aws_s3_bucket" "mfadelete3" {
-  bucket = "stephybuckettftest3"
+resource "aws_s3_bucket" "mfadelete5" {
+  bucket = "testbuckettftest3"
   acl    = "private"
   versioning {
     enabled = true
