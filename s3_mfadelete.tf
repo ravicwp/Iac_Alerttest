@@ -51,3 +51,12 @@ resource "aws_s3_bucket" "mfadelete6" {
     mfa_delete = true
   }
 }
+
+resource "aws_s3_bucket" "mfadelete7" {
+  bucket = "testbuckettftest7"
+  acl    = "private"
+  versioning {
+    enabled = false
+    mfa_delete = true
+  }
+}
