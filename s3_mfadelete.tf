@@ -57,6 +57,6 @@ resource "aws_s3_bucket" "mfadelete7" {
   acl    = "private"
   versioning {
     enabled = false
-    mfa_delete = true
+    mfa_delete = false
   }
 }
